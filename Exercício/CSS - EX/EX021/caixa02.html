@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--Cabeça do conteúdo -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: linear-gradient(30deg, #b8b3be, #b8b3be, #91839d, #91839d);
+      margin: 0px;
+
+    }
+
+    header {
+      background-color: #e9e6ec;
+      padding: 5px;
+      margin: 0px;
+    }
+
+    header>h1 {
+      text-align: center;
+      font-size: 50px;
+      letter-spacing: 7px;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.8);
+
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+      margin-left: -5px;
+      margin-right: -5px;
+    }
+
+    nav>a {
+      text-decoration: none;
+      color: whitesmoke;
+
+      margin-right: 10%;
+    }
+
+    nav>a:hover {
+      text-decoration: underline;
+      color: black;
+    }
+
+    main {
+      background-image: radial-gradient(#D6D3D9, #F5F4F6, #D6D3D9);
+      padding: 10px;
+      margin: 10px;
+    }
+
+    section {
+      padding: 2%;
+      font-size: 15px;
+    }
+
+    #assuntos {
+      background-color: rgba(0, 0, 0, 0.9);
+      color: antiquewhite;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 3px 7px 10px lightslategray;
+
+    }
+
+    #futebol {
+
+      color: rgb(13, 14, 14);
+      background-image: linear-gradient(20deg, #86EF81, #41E538, #1FB517 30%, #41E538, #86EF81);
+    }
+
+    #politica {
+      background-image: linear-gradient(20deg, #FBFDD8, #F6FA9E, #F0F757 30%, #F6FA9E, #FBFDD8, #33e168,
+          #3a29f0);
+
+    }
+
+    #tecnologia {
+
+      background-image: linear-gradient(20deg, #B1B9FB, #6473F7, #1228f2d0 40%, #6473F7, #B1B9FB);
+    }
+
+    article {
+      background-color: rgb(119, 153, 133);
+      padding: 5px;
+      border-radius: 6px;
+      text-align: justify;
+    }
+
+    article>aside {
+      background-color: rgba(62, 64, 78, 0.2);
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: black;
+      color: #91839d;
+      font-weight: bold;
+      text-align: center;
+      padding: 2px;
+      margin: 0px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <!--Cabeçalho-->
+  <header>
+    <h1>Meu Site</h1>
+    <!--Para criarmos Menu-->
+    <nav>
+      <a href="#">Link</a><a href="#">Link</a><a href="#">Link</a><a href="#">Link</a><a href="#">Link</a>
+    </nav>
+  </header>
+
+  <!--Conteúdo Principal-->
+  <main>
+    <section id="assuntos">Esportes, Política e Tecnologia</section>
+    <section>
+      <article id="futebol">
+        <h2>Campeonato Brasileiro</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi impedit sint provident blanditiis? Nisi
+          architecto vitae ipsum quibusdam, quos quod deleniti tempora non ab, dolorum perferendis distinctio esse et
+          ex!</p>
+        <aside>
+          Fonte R7 Notícias.
+        </aside>
+      </article>
+    </section>
+
+    <section>
+      <article id="politica">
+        <h2>Principais Notícias do Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum explicabo provident nemo et officiis rerum,
+          minima quia. Officiis sequi sed, necessitatibus doloremque corrupti, eligendi quod sapiente dignissimos ullam,
+          ab velit?</p>
+        <!--Conteúdo Periférico ao Arquivo-->
+        <aside>
+          Por José da Silva.
+        </aside>
+
+
+
+
+
+      </article>
+
+    </section>
+
+    <section>
+      <article id="tecnologia">
+        <h2>A Importância da IA nos Dias Atuais</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempore eius aspernatur perferendis, fugiat
+          iusto, mollitia officia illo iste consequatur ex voluptatum ad? Delectus dolor odit in quod ad iste? Lorem
+          ipsum
+          dolor sit amet consectetur adipisicing elit. Autem iusto quo aliquid, quidem amet laborum eius saepe.
+          Cupiditate
+          suscipit, at consequatur accusamus harum nemo. Non at quos harum commodi eos.</p>
+        <aside>
+          Por Henrique Forest.
+        </aside>
+      </article>
+
+    </section>
+  </main>
+
+  <!--Rodapé-->
+  <footer>
+    <p>Desenvolvido por Rodrigo Carvalho</p>
+  </footer>
+
+</body>
+
+</html>
